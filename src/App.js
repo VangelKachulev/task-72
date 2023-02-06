@@ -6,7 +6,7 @@ let tags = ["boomdotdev", "task", "tags", "react"];
 function App() {
   return (
     <div className="App">
-      <Tags props={tags}></Tags>
+      <Tags tags={tags}></Tags>
       <section class="hero">
         <div class="hero-body">
           <p class="title">A React Task</p>
