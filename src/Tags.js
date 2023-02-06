@@ -3,16 +3,10 @@
 export default function Tags(props) {
 
 
-    console.log(props);
-    let listItem = props.props.map(e => {
-        return <li className="tag">#{e}</li>
-    })
+    // console.log(props.props);
+
     return (
-
-
-        <ul className="tags">{listItem}</ul>
-
-
+        <ul>{props.props?.map(e => <li  className="tag">#{e}</li>)}</ul>
     )
 
 
